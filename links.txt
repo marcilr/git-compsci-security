@@ -1,0 +1,65 @@
+links.txt
+Created Wed Apr  3 19:08:43 AKDT 2013
+Copyright (C) 2013 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+Encrypted filesystem related links
+
+
+Links
+=====
+Chapter 3.  Encrypted File System
+3.1. Mounting a File System as Encrypted
+3.2. Additional Information
+Red Hat Enterprise Linux 6 now supports eCryptfs, a "pseudo-file system" which provides data and
+filename encryption on a per-file basis.  The term "pseudo-file system" refers to the fact that
+eCryptfs does not have an on-disk format; rather, it is a file system layer that resides on top of
+an actual file system. The eCryptfs layer provides encryption capabilities. 
+https://access.redhat.com/knowledge/docs/en-US/Red_Hat_Enterprise_Linux/6/html/Storage_Administration_Guide/filesysnew-efs.html
+
+Disk encryption
+From Wikipedia, the free encyclopedia
+http://en.wikipedia.org/wiki/Disk_encryption
+
+Disk encryption comparison table
+https://wiki.archlinux.org/index.php/Disk_Encryption#Comparison_table
+
+dm-crypt with LUKS
+https://wiki.archlinux.org/index.php/Dm-crypt_with_LUKS
+
+eCryptfs
+https://wiki.archlinux.org/index.php/ECryptfs
+
+EncFS
+From Wikipedia, the free encyclopedia
+http://en.wikipedia.org/wiki/EncFS
+
+EncFs
+https://wiki.archlinux.org/index.php/EncFS
+
+Encrypt Your Data With EncFS (Debian Squeeze/Ubuntu 11.10)
+http://www.howtoforge.com/encrypt-your-data-with-encfs-debian-squeeze-ubuntu-11.10
+
+Filesystem-level encryption
+From Wikipedia, the free encyclopedia
+http://en.wikipedia.org/wiki/Filesystem-level_encryption
+
+How to set up an encrypted filesystem in several easy steps
+Posted by Anonymous on Wed 29 Nov 2006 at 11:17
+Tags: encryption, filesystems, luks, lvm 
+http://www.debian-administration.org/articles/469
+
+how to use encrypted loop files with a gpg passphrase in Debian
+28/08/2009
+http://www.void.gr/kargig/blog/2009/08/28/how-to-use-encrypted-loop-files-with-a-gpg-passphrase-in-debian/
+
+Mount encrypted volumes in parallel
+This is a simple change to rc.sysinit that allows mounting of your encypted volumes in parallel,
+which can speed up boot immensely if you have more than one non-root encrypted partition. 
+https://wiki.archlinux.org/index.php/Mount_encrypted_volumes_in_parallel
+
+Removing System Encryption
+https://wiki.archlinux.org/index.php/Removing_System_Encryption
+
+TrueCrypt
+https://wiki.archlinux.org/index.php/TrueCrypt
