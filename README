@@ -1,0 +1,26 @@
+README
+Created Wed Apr  3 19:12:37 AKDT 2013
+Copyright (C) 2013 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+Filelist
+========
+disk-encryption-20130404.pdf
+  This article discusses common techniques available in Arch Linux for cryptographically
+  protecting a logical part of a storage disk (folder, partition, whole disk, ...), so that all
+  data that is written to it is automatically encrypted, and decrypted on-the-fly when read again. 
+  Very nice comparision table with Loop-AES, dm-crypt + LUKS, Truecrypt, eCryptfs, and EncFs.
+  Both eCryptfs and EncFS support encrypted files.  eCryptfs is a kernel module while EncFS 
+  supports non-root administration.
+  https://wiki.archlinux.org/index.php/Disk_Encryption#Comparison_table
+
+encrypted-loop-files-20090828.pdf
+  how to use encrypted loop files with a gpg passphrase in Debian
+  28/08/2009
+  http://www.void.gr/kargig/blog/2009/08/28/how-to-use-encrypted-loop-files-with-a-gpg-passphrase-in-debian/
+
+encrypted-loop-files-20090828.txt
+  how to use encrypted loop files with a gpg passphrase in Debian
+  28/08/2009
+  http://www.void.gr/kargig/blog/2009/08/28/how-to-use-encrypted-loop-files-with-a-gpg-passphrase-in-debian/
+
