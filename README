@@ -1,0 +1,26 @@
+README
+Created Thu Jan 21 15:25:55 AKST 2016
+Copyright (C) 2016 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+Filelist
+========
+ecryptfs/
+  eCryptfs - The enterprise cryptographic filesystem for Linux
+  http://ecryptfs.org/  
+
+encfs/
+  EncFS: an Encrypted Filesystem for FUSE
+  http://www.arg0.net/#!encfs/c1awt
+
+encrypted-filesystem.txt
+  Encrypted filesystem
+
+glossary.txt
+  Glossary for encrypted filesystem
+
+links.txt
+  Encrypted filesystem related links
+
+pdf/
+  Portable Document Format files
