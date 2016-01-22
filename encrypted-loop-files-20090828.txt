@@ -1,0 +1,101 @@
+encrypted-loop-files-20090828.txt
+Created Wed Apr  3 19:17:26 AKDT 2013
+Copyright (C) 2013 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+28/08/2009
+how to use encrypted loop files with a gpg passphrase in Debian
+
+Fast howto (mostly a note for personal use) on what's needed on Debian to use an encrypted loop:
+
+1. The necessary utilities (patched losetup)
+# aptitude install loop-aes-utils
+
+2. The necessary kernel-module
+# aptitude install loop-aes-modules-2.6.30-1-686-bigmem
+
+3. Create the keyfile (keep your computer as busy as possible while doing this to increase entropy)
+# head -c 2925 /dev/urandom | uuencode -m - | head -n 66 | tail -n 65 | \
+gpg --symmetric -a >/path/to/keyfile.gpg
+
+4. Loopfile creation (10Mb)
+# dd if=/dev/urandom of=/my-encrypted-loop.aes bs=1k count=10000
+
+5. Initialize loopfile
+# losetup -K /path/to/keyfile.gpg -e AES256 /dev/loop5 /home/username/crypto-loop.img
+
+6. Format loopfile
+# mke2fs /dev/loop5
+
+7. Delete loop device
+# losetup -d /dev/loop5
+
+8. Create mount point for loopfile
+# mkdir /mnt/crypto-loop
+
+9. Add entry to fstab
+
+  /home/username/crypto-loop.img /mnt/crypt-loop ext2 defaults,noauto,user,loop=/dev/loop7,\
+  encryption=AES256,gpgkey=/path/to/keyfile.gpg 0 0
+
+10. Try mounting the loopfile as user
+$ mount /mnt/crypto-loop
+
+11. Check it's mounted properly
+$ mount | grep -i aes
+
+and use it!
+
+P.S. Secure your keyfile.gpg, if it gets lost you won't _ever_ be able to decrypt what was inside
+crypto-loop.img!
+
+
+* Filed by kargig at 20:59 under Encryption,Linux
+
+Tags: aes, debian, Encryption, gpg, Linux, loop, loop-aes
+4 Comments	| 13,438 views
+
+void.gr/
+
+
+4 Responses to "how to use encrypted loop files with a gpg passphrase in Debian"
+================================================================================
+
+argp - August 29th, 2009 | 00:54
+--------------------------------
+Using Debian IceWeasel Debian IceWeasel 3.0.12 on Debian GNU/Linux Debian GNU/Linux
+
+Nice post, thanks for the tip.  However, I prefer encfs since it is a bit more platform independent.
+
+how to use encrypted loop files with a gpg passphrase in Debian | Debian-News.net - Your one stop
+for news about Debian
+[http://www.debian-news.net/2009/08/29/how-to-use-encrypted-loop-files-with-a-gpg-passphrase-in-debian/]
+
+
+Using WordPress WordPress - 2.8.4 August 29th, 2009 | 20:30
+-----------------------------------------------------------
+[...] Fast howto (mostly a note for personal use) on what's needed on Debian to use an encrypted
+loop: More here [...]
+
+
+leviathan - September 3rd, 2009 | 00:11
+---------------------------------------
+Using Mozilla Firefox Mozilla Firefox 3.0.13 on Ubuntu Linux Ubuntu Linux
+oraio file - perasa poly euxarista me TA mount points
+
+Fuzzy Geek > Blog Archive > how to use encrypted loop files with a gpg passphrase in Debian
+[http://blog.someone.exofire.net/2009/09/how-to-use-encrypted-loop-files-with-a-gpg-passphrase-in-debian/]
+
+
+Using WordPress WordPress 2.8.4 - September 30th, 2009 | 14:29
+--------------------------------------------------------------
+[...] i report a quick HOW-TO from http://www.void.gr, original post is  HERE [...]
+
+
+
+Links
+=====
+how to use encrypted loop files with a gpg passphrase in Debian
+28/08/2009
+http://www.void.gr/kargig/blog/2009/08/28/how-to-use-encrypted-loop-files-with-a-gpg-passphrase-in-debian/
+
