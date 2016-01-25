@@ -6,6 +6,15 @@ Copyright (C) 2013 by Raymond E. Marcil <marcilr@gmail.com>
 Filesystem
 
 
+Working on the best way to encrypt files on the filesystem.
+
+
+ecryptfs - The enterprise cryptographic filesystem for Linux
+           Implemented using kernel module
+
+encfs    - EncFS FUSE-based cryptographic filesystem
+
+
 Links
 =====
 Disk encryption
