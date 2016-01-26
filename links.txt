@@ -11,4 +11,9 @@ Links
 Five Best File Encryption Tools
 by Alan Henry, 2/08/15 8:00am, Filed to: HIVE FIVE
 lifehacker
+o VeraCrypt (Windows/OS X/Linux)
+o AxCrypt (Windows)
+o BitLocker (Windows)
+o GNU Privacy Guard (Windows/OS X/Linux)
+o 7-Zip (Windows/OS X/Linux)
 http://lifehacker.com/five-best-file-encryption-tools-5677725
