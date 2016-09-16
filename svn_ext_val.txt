@@ -1,0 +1,75 @@
+#
+# svn_ext_val.txt
+# Created Mon Aug 29 08:35:55 AKDT 2011
+# by Raymond E. Marcil <marcilr@gmail.com>
+#
+
+#
+# List of repo hierarchical directories to checkout under security/
+#
+# crypto/          Cryptography
+# docs/            Documentation
+# firewall/        Firewall
+# fox/             Fox security bar for securing doors.
+# gpg/             OpenPGP encryption and signing tool
+#
+# kerberos/        Kerberos is computer network authentication protocol which
+#                  works on the basis of "tickets" to allow nodes communicating
+#                  over a non-secure network to prove their identity to one
+#                  another in a secure manner.  Its designers aimed primarily
+#                  at a client-server model, and it provides mutual 
+#                  authentication - both the user and the server verify each
+#                  other's identity.
+#                  wikipedia.org/
+#
+# locks/           Locks including Brinks and Master
+#
+# nessus/          Nessus Network Auditing
+#                  http://www.amazon.com/Nessus-Network-Auditing-Source-Security/product-reviews/1931836086
+#                  http://www.tenable.com/products/nessus-home
+#
+# openssl          OpenSSL: The Open Source toolkit for SSL/TLS
+#                  Secure Socket Layer (SSL) binary and related
+#                  cryptographic tools
+#                  https://www.openssl.org/
+#
+# putty/           PuTTY: a free telnet/ssh client
+#                  Windows and Unix platforms, along with an xterm terminal
+#                  emulator.  It is written and maintained primarily by
+#                  Simon Tatham.
+#                  http://www.chiark.greenend.org.uk/~sgtatham/putty/
+#
+# sql-injection/   Attacking databases from web pages via sql injection.
+#                  This happened to UAA's Brian Brubaker (department?) in
+#                  Fall 2012.
+#
+# ssh/             Secure shell (SSH) client & server
+#
+# ssl/             Secure Sockets Layer, predecessor of Transport Layer
+#                  Security, a communications protocol
+#                  wikipedia.org/
+#
+# tor/             Anonymity OnlineProtect your privacy.  Defend yourself
+#                  against network surveillance and traffic analysis.
+#                  Tor protects you by bouncing your communications around a
+#                  distributed network of relays run by volunteers all around
+#                  the world: it prevents somebody watching your Internet
+#                  connection from learning what sites you visit, and it
+#                  prevents the sites you visit from learning your physical
+#                  location.
+#                  https://www.torproject.org/index.html.en
+#
+../../security/crypto/crypto                 ./crypto
+../../security/docs/docs                     ./docs
+../../security/firewall/firewall             ./firewall
+../../security/fox/fox                       ./fox
+../../security/gpg/gpg                       ./gpg
+../../security/kerberos/kerberos             ./kerberos
+../../security/locks/locks                   ./locks
+../../security/nessus/nessus                 ./nessus
+../../security/openssl/openssl               ./openssl
+../../security/putty/putty                   ./putty
+../../security/sql-injection/sql-injection   ./sql-injection
+../../security/ssh/ssh                       ./ssh
+../../security/ssl/ssl                       ./ssl
+../../security/tor/tor                       ./tor
