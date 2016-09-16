@@ -1,0 +1,24 @@
+README
+Created Mon Aug 29 08:39:22 AKDT 2011
+by Raymond E. Marcil <marcilr@gmail.com>
+
+
+Filelist
+========
+crypto/
+  Cryptography
+
+filesystem/
+  Encrypted filesystem
+
+links.txt
+  Security related links
+
+security.txt
+  Security
+
+svn_ext_val.txt
+  List of repo hierarchical directories to checkout under security/
+
+TODO
+  TODO items for security/
