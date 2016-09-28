@@ -32,4 +32,4 @@ ssh://git@github.com/marcilr/gnano      crypto/gnano
 ssh://git@github.com/marcilr/gpg        crypto/gpg
 ssh://git@github.com/marcilr/ecryptfs   filesystem/ecryptfs
 ssh://git@github.com/marcilr/encfs      filesystem/encfs
-ssh://git@github.com/marcilr/ssh        ssh
+ssh://htpc/data/git/security/ssh        ssh
