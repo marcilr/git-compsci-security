@@ -1,0 +1,11 @@
+README
+Created Mon Mar 27 08:13:56 AKDT 2017
+Copyright (C) 2017 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+Filelist
+========
+gnano
+  Python wrapper for nano for editing gpg encrypted files.
+  Very nice.
+  http://stackoverflow.com/posts/12289967/revisions
