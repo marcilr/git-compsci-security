@@ -1,0 +1,24 @@
+links.txt
+Created Mon Mar 27 08:14:27 AKDT 2017
+Copyright (C) 2017 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+gnano related links
+
+
+Links
+=====
+gnano
+  Python wrapper for nano for editing gpg encrypted files.
+  Very nice.
+  "I wrote a python script to solve this (for Linux only).
+  It works by decrypting the file into /dev/shm to ensure
+  that the unencrypted data is neva concern).to disk (although
+  it is possible for any of the programs using the data to be
+  swapped to disk; this is almost always a concern).
+
+  This has some benefits over some of the other posted answers:
+  o Only need to type the password once
+  o Works with any editor
+  http://stackoverflow.com/posts/12289967/revisions
+
