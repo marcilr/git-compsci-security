@@ -32,6 +32,7 @@ ssh://git@github.com/marcilr/gnano              crypto/gnano
 ssh://git@github.com/marcilr/gpg                crypto/gpg
 ssh://git@github.com/marcilr/ecryptfs           filesystem/ecryptfs
 ssh://git@github.com/marcilr/encfs              filesystem/encfs
+ssh://git@github.com/marcilr/locks              locks
 
 #
 # Merged from 256GB usb key under:
