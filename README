@@ -1,6 +1,6 @@
 README
-Created Mon Aug 29 08:39:22 AKDT 2011
-by Raymond E. Marcil <marcilr@gmail.com>
+Created Thu Jun  7 14:39:45 AKDT 2018
+Copyright (C) 2018 by Raymond E. Marcil <marcilr@gmail.com>
 
 
 Filelist
@@ -9,19 +9,18 @@ crypto/
   Cryptography
 
 filesystem/
-  Encrypted filesystem
+  Encrypted file system
 
-links.txt
-  Security related links
+locks/
 
-security.txt
-  Security
+manifest
+  Manifest for resync application
+
+pdf/
+  Portable Document Format files
+
+rsa.txt
+  GCI macBook GlobalProtec RSA login.
 
 ssh/
-  Secure shell (SSH) client & server
-
-svn_ext_val.txt
-  List of repo hierarchical directories to checkout under security/
-
-TODO
-  TODO items for security/
+  SSH encrypted communications
