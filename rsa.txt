@@ -1,0 +1,63 @@
+rsa.txt
+Created Thu Jun  7 14:20:04 AKDT 2018
+Copyright (C) 2018 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+To reset RSA pin:
+
+1. In browser to:
+  https://rsa-ssp.gci.com/
+  ===> https://rsa-ssp.gci.com/console-selfservice/
+
+2. Login with rmarcil ldap account
+
+3. At RSA Self-Service Console
+
+Notes
+The PIN for your Android - CT-KIP - QR token needs to be created.
+To create a PIN, click create PIN in the
+My Authenticators > Tokens > Android - CT-KIP - QR section.
+
+My Authenticators
+
+Tokens  -  request a new token|view SecurID token demo
+  Android - CT-KIP - QR   View details test troubleshoot
+  Token Serial Number:	  000156078369
+  PIN:	                  none Create PIN   <=== click Create PIN
+  Expires On:	          Oct 30, 2018 4:00:00 PM AKDT
+                          request replacement
+On-Demand Authentication
+  You've successfully setup your security questions.
+  During logon you may be prompted to answer
+  those questions to verify your identity.
+
+My Profile
+----------
+Personal Information
+First Name:              Raymond
+Middle Name: 
+Last Name:               Marcil
+User ID:                 rmarcil
+E-mail:                  rmarcil@gci.com
+Account Creation Date:   Apr 4, 2017 3:03:45 PM AKDT
+Mobile Number:	         907-351-7514
+
+
+4. On Thu Jun 7, 2018 02:28 updated pin to last 4 SSN.
+clock Logoff
+
+5. Test global protect login on laptop.
+click Round global protect login icon at top of mac display
+select Connect
+
+At Global Protect login:
+
+6. Updated again to 1234
+
+7. Attempt GlobalProtect Login again.
+anc-std-vpn.gci.com
+Username: rmarcil
+Password: 1234 + RSA code
+
+Yeh hah! It finally worked.  This the issue was I had reused 
+my 4-digit pin.
