@@ -19,6 +19,10 @@ locks/
 manifest
   Manifest for resync application
 
+modsec/
+  ModSecurity
+  https://modsecurity.org/about.html
+
 pdf/
   Portable Document Format files
 
