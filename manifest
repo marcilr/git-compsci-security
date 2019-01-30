@@ -31,12 +31,7 @@
 ssh://git@github.com/marcilr/crypto             crypto
 #ssh://git@github.com/marcilr/ecryptfs           filesystem/ecryptfs
 #ssh://git@github.com/marcilr/encfs              filesystem/encfs
+ssh://git@github.com/marcilr/filesystem         filesystem
 ssh://git@github.com/marcilr/locks              locks
-
-#
-# Merged from 256GB usb key under:
-#   ext4/svn-ORIG-20151006/compsci/storage/filesystem/sshfs/
-#
-ssh://htpc/data/git/security/filesystem/sshfs   filesystem/sshfs
-
+#ssh://htpc/data/git/security/filesystem/sshfs   filesystem/sshfs
 ssh://htpc/data/git/security/ssh                ssh
