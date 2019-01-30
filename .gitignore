@@ -1,0 +1,9 @@
+#.gitignore
+# Created Wed Jan 30 12:49:06 AKST 2019
+# by Raymond E. Marcil <marcilr@gmail.com>
+#
+# Files for git to ignore.
+#
+.gitignore
+crypto/
+locks/
