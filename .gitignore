@@ -10,3 +10,4 @@ ecryptfs/
 encfs/
 filesystem/
 locks/
+modsec/
