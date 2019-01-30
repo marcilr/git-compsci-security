@@ -29,8 +29,8 @@
 #
 # =====================================================================
 ssh://git@github.com/marcilr/crypto             crypto
-#ssh://git@github.com/marcilr/ecryptfs           filesystem/ecryptfs
-#ssh://git@github.com/marcilr/encfs              filesystem/encfs
+ssh://git@github.com/marcilr/ecryptfs           ecryptfs
+ssh://git@github.com/marcilr/encfs              encfs
 ssh://git@github.com/marcilr/filesystem         filesystem
 ssh://git@github.com/marcilr/locks              locks
 #ssh://htpc/data/git/security/filesystem/sshfs   filesystem/sshfs
