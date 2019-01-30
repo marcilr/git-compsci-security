@@ -6,4 +6,7 @@
 #
 .gitignore
 crypto/
+ecryptfs/
+encfs/
+filesystem/
 locks/
