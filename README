@@ -14,6 +14,9 @@ crypto/
 filesystem/
   Encrypted file system
 
+https/
+  Hyper Text Transfer Protocol Secure (HTTPS)
+
 locks/
 
 manifest
