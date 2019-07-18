@@ -36,4 +36,5 @@ ssh://git@github.com/marcilr/https              https
 ssh://git@github.com/marcilr/locks              locks
 ssh://git@github.com/marcilr/modsec             modsec
 #ssh://htpc/data/git/security/filesystem/sshfs   filesystem/sshfs
-ssh://htpc/data/git/security/ssh                ssh
+#ssh://htpc/data/git/security/ssh                ssh
+ssh://git@github.com/marcilr/ssh                ssh
