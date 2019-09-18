@@ -35,7 +35,10 @@ ssh://git@github.com/marcilr/filesystem.git      filesystem
 ssh://git@github.com/marcilr/https.git           https
 ssh://git@github.com/marcilr/locks.git           locks
 ssh://git@github.com/marcilr/modsec.git          modsec
+ssh://git@github.com/marcilr/openvpn             openvpn
 ssh://git@github.com/marcilr/putty.git           putty
 #ssh://htpc/data/git/security/filesystem/sshfs    filesystem/sshfs
 #ssh://htpc/data/git/security/ssh                ssh
 ssh://git@github.com/marcilr/ssh                 ssh
+ssh://git@github.com/marcilr/vpn	         vpn
+
