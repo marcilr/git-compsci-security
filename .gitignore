@@ -5,5 +5,13 @@
 # Files for git to ignore.
 #
 .gitignore
+crypto/
+ecryptfs/
+encfs/
+filesystem/
 https/
+locks/
+modsec/
 pdf/
+putty/
+ssh/
