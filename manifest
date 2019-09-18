@@ -28,13 +28,14 @@
 # Security
 #
 # =====================================================================
-ssh://git@github.com/marcilr/crypto             crypto
-ssh://git@github.com/marcilr/ecryptfs           ecryptfs
-ssh://git@github.com/marcilr/encfs              encfs
-ssh://git@github.com/marcilr/filesystem         filesystem
-ssh://git@github.com/marcilr/https              https
-ssh://git@github.com/marcilr/locks              locks
-ssh://git@github.com/marcilr/modsec             modsec
-#ssh://htpc/data/git/security/filesystem/sshfs   filesystem/sshfs
+ssh://git@github.com/marcilr/crypto.git          crypto
+ssh://git@github.com/marcilr/ecryptfs.git        ecryptfs
+ssh://git@github.com/marcilr/encfs.git           encfs
+ssh://git@github.com/marcilr/filesystem.git      filesystem
+ssh://git@github.com/marcilr/https.git           https
+ssh://git@github.com/marcilr/locks.git           locks
+ssh://git@github.com/marcilr/modsec.git          modsec
+ssh://git@github.com/marcilr/putty.git           putty
+#ssh://htpc/data/git/security/filesystem/sshfs    filesystem/sshfs
 #ssh://htpc/data/git/security/ssh                ssh
-ssh://git@github.com/marcilr/ssh                ssh
+ssh://git@github.com/marcilr/ssh                 ssh
