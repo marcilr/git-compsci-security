@@ -12,6 +12,8 @@ filesystem/
 https/
 locks/
 modsec/
+openvpn/
 pdf/
 putty/
 ssh/
+vpn/
