@@ -28,6 +28,7 @@
 # Security
 #
 # =====================================================================
+ssh://git@github.com/marcilr/certs.git           certs
 ssh://git@github.com/marcilr/crypto.git          crypto
 ssh://git@github.com/marcilr/ecryptfs.git        ecryptfs
 ssh://git@github.com/marcilr/encfs.git           encfs
